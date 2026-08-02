@@ -14,10 +14,10 @@ int main() {
     Mat image(480, 640, CV_8UC3, Scalar(0, 0, 0));
 
     // 3. 在图像中央画一个红色的圆
-    circle(image, Point(320, 240), 100, Scalar(0, 0, 255), -1);
+    circle(image, Point(320, 240), 100, Scalar(255, 0, 0), -1);
 
     // 4. 写上文字
-    putText(image, "RM Vision Day 1", Point(180, 400),
+    putText(image, "RM Vision Day 1-Git Text", Point(180, 400),
             FONT_HERSHEY_SIMPLEX, 1.0, Scalar(255, 255, 255), 2);
 
     // 5. 显示图像
