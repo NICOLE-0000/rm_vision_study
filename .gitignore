@@ -1,0 +1,15 @@
+# 编译产物
+build/
+*.o
+*.a
+*.so
+# IDE 配置
+.vscode/
+.idea/
+# 临时文件
+*.swp
+*.swo
+*~
+# 图片缓存
+*.png
+*.jpg
